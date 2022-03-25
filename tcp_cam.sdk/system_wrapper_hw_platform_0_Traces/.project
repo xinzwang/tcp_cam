@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>system_wrapper_hw_platform_0_Traces</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.linuxtools.tmf.project.nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Traces/Run_三月-10_12-00/PS_Trace_三月-10_12-00/PS_Trace_三月-10_12-00_</name>
+			<type>1</type>
+			<location>D:/codes/tcp_cam/tcp_cam.sdk/system_wrapper_hw_platform_0_Traces/Traces/.bookmarks</location>
+		</link>
+		<link>
+			<name>Traces/Run_三月-10_15-16/PS_Trace_三月-10_15-16/PS_Trace_三月-10_15-16_</name>
+			<type>1</type>
+			<location>D:/codes/tcp_cam/tcp_cam.sdk/system_wrapper_hw_platform_0_Traces/Traces/.bookmarks</location>
+		</link>
+		<link>
+			<name>Traces/Run_三月-11_19-18/PS_Trace_三月-11_19-18/PS_Trace_三月-11_19-18_</name>
+			<type>1</type>
+			<location>D:/codes/tcp_cam/tcp_cam.sdk/system_wrapper_hw_platform_0_Traces/Traces/.bookmarks</location>
+		</link>
+		<link>
+			<name>Traces/Run_三月-12_18-41/PS_Trace_三月-12_18-41/PS_Trace_三月-12_18-41_</name>
+			<type>1</type>
+			<location>D:/codes/tcp_cam/tcp_cam.sdk/system_wrapper_hw_platform_0_Traces/Traces/.bookmarks</location>
+		</link>
+		<link>
+			<name>Traces/Run_三月-19_19-35/PS_Trace_三月-19_19-35/PS_Trace_三月-19_19-35_</name>
+			<type>1</type>
+			<location>D:/codes/tcp_cam/tcp_cam.sdk/system_wrapper_hw_platform_0_Traces/Traces/.bookmarks</location>
+		</link>
+		<link>
+			<name>Traces/Run_三月-23_18-52/PS_Trace_三月-23_18-52/PS_Trace_三月-23_18-52_</name>
+			<type>1</type>
+			<location>D:/codes/tcp_cam/tcp_cam.sdk/system_wrapper_hw_platform_0_Traces/Traces/.bookmarks</location>
+		</link>
+	</linkedResources>
+</projectDescription>

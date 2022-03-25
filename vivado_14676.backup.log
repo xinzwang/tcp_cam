@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Mar 21 19:53:44 2022
+# Process ID: 14676
+# Current directory: D:/codes/tcp_cam
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9852 D:\codes\tcp_cam\tcp_cam.xpr
+# Log file: D:/codes/tcp_cam/vivado.log
+# Journal file: D:/codes/tcp_cam\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/codes/tcp_cam/tcp_cam.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/codes/ov5640_lcd/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:16 . Memory (MB): peak = 786.102 ; gain = 171.969
+update_compile_order -fileset sources_1
+elaunch_sdk -workspace D:/codes/tcp_cam/tcp_cam.sdk -hwspec D:/codes/tcp_cam/tcp_cam.sdk/system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/codes/tcp_cam/tcp_cam.sdk -hwspec D:/codes/tcp_cam/tcp_cam.sdk/system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+launch_sdk -workspace D:/codes/tcp_cam/tcp_cam.sdk -hwspec D:/codes/tcp_cam/tcp_cam.sdk/system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/codes/tcp_cam/tcp_cam.sdk -hwspec D:/codes/tcp_cam/tcp_cam.sdk/system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 22 13:22:57 2022...

@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Mar 21 19:53:44 2022
+# Process ID: 14676
+# Current directory: D:/codes/tcp_cam
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9852 D:\codes\tcp_cam\tcp_cam.xpr
+# Log file: D:/codes/tcp_cam/vivado.log
+# Journal file: D:/codes/tcp_cam\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/codes/tcp_cam/tcp_cam.xpr
+update_compile_order -fileset sources_1
+
+launch_sdk -workspace D:/codes/tcp_cam/tcp_cam.sdk -hwspec D:/codes/tcp_cam/tcp_cam.sdk/system_wrapper.hdf
+launch_sdk -workspace D:/codes/tcp_cam/tcp_cam.sdk -hwspec D:/codes/tcp_cam/tcp_cam.sdk/system_wrapper.hdf
