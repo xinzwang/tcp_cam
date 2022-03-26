@@ -1,9 +1,12 @@
 # TCP Camera
 
+
+
 ## 1 Introduction
 
 This project is a remote camera based on **Zynq**. It provides a set of simple and easy-to-use TCP interface, which can easily obtain camera images, control camera operation and modify camera ISP parameters through the network environment.
 
+* **development environment：Vivado 2018.3**
 * kernal board: Xilinx XC7Z020CLG400-2
 * development board: [正点原子 领航者v2](https://detail.tmall.com/item.htm?id=609032204975&ali_refid=a3_430673_1006:1267360122:N:Z/UJ/uYBRIIpeEvXe/K1Rg==:afc3084df3cc6a47573a14115ccabe48&ali_trackid=1_afc3084df3cc6a47573a14115ccabe48&spm=a2e0b.20350158.31919782.1&skuId=4283333461236)
 * camera: OV5640
@@ -27,3 +30,6 @@ We use pure C language to write programs. All programs run on the PS side. The p
 
 We will not describe the initialization content of PL side too much. This part of the code is mostly some fixed statements, such as executing some necessary logic for setting device initialization
 
+We use LwIP to realize TCP network communication. We test in 100m network environment, and the actual network communication speed can reach 10Mbps. This bandwidth can meet our needs, but for higher quality image or video streaming, we can further improve the implementation scheme of the application layer to maximize the use of network bandwidth. In order to facilitate the modification of camera ISP parameters, we have specially set up an interface
+
+In **utils/tcp_cam.py**, we provide a simple Python program to realize the video transmission between the host computer and the development board.
