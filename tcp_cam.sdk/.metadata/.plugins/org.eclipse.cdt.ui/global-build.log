@@ -31710,3 +31710,27 @@ make pre-build main-build
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for 'main-build'.
+17:20:38 **** Auto Build of configuration Debug for project tcp_cam ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ov5640/ov5640_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ov5640/ov5640_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tcp_cam_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ov5640/ov5640_init.d" -MT"src/ov5640/ov5640_init.o" -o "src/ov5640/ov5640_init.o" "../src/ov5640/ov5640_init.c"
+../src/ov5640/ov5640_init.c: In function 'ov5640_init2':
+../src/ov5640/ov5640_init.c:391:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/ov5640/ov5640_init.c'
+' '
+'Building target: tcp_cam.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../tcp_cam_bsp/ps7_cortexa9_0/lib -o "tcp_cam.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/echo.o ./src/main.o ./src/platform_zynq.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: tcp_cam.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size tcp_cam.elf  |tee "tcp_cam.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 159064	   3224	33675552	33837840	2045310	tcp_cam.elf
+'Finished building: tcp_cam.elf.size'
+' '
